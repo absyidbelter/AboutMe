@@ -9,6 +9,13 @@ Teknologi yang digunakan dalam proyek ini adalah React dan Bootstrap.
 Berikut adalah langkah-langkah untuk memulai dengan Tentang Saya Pages:
 
 1. Clone repositori.
+
+```json
+https://github.com/absyidbelter/TentangSaya.git
+
+```
+
+
 2. mulai dengan 
 
 ```json
