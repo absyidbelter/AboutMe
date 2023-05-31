@@ -1,13 +1,20 @@
-# tentang saya pages 
+# Tentang Saya Pages
 
-was built using : npm create react app
-https://github.com/facebook/create-react-app
+**Tentang Saya Pages** adalah sebuah proyek yang dibangun menggunakan *npm create react app*. Anda dapat menemukan lebih banyak informasi tentang *create react app* di [sini](https://github.com/facebook/create-react-app).
 
-with technology: React and bootstrap
+Teknologi yang digunakan dalam proyek ini adalah React dan Bootstrap.
 
-### For Start
+## Getting Started
 
-Untuk memulai yaitu dengan :
+Berikut adalah langkah-langkah untuk memulai dengan Tentang Saya Pages:
+
+1. Clone repositori.
+2. mulai dengan 
+
 ```json
 npm start
+
 ```
+yang berjalan di 
+[http://localhost:3000](http://localhost:3000)
+
