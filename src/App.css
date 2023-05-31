@@ -336,6 +336,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+.carousel-image {
+  width: 200px;
+  height: 150px; 
+  object-fit: cover; 
+}
+
 
 /************ Projects Css ************/
 .project {
@@ -353,6 +359,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+
+.projects-BAF {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 40px;
+  width: 50%;
+  height: 100%;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-image {
+  margin-top: -20px;
+  margin-bottom: auto;
+  max-width: 80%;
+  max-height: 50%;
+}
+
+
 .project-third-txt{
   text-align: center;
 }

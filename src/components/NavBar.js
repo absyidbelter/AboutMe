@@ -71,8 +71,8 @@ export const NavBar = () => {
               <div className="social-icon">
                 <a
                   href="https://api.whatsapp.com/send?phone=6285161836960"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  // target="_blank"
+                  // rel="noopener noreferrer"
                 >
                   <img src={navIcon2} alt="Icon" />
                 </a>

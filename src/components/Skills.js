@@ -5,6 +5,8 @@ import skill_GIT from "../assets/img/skill-GIT.png";
 import skill_JS from "../assets/img/skill-JS.png";
 import skill_teamWork from "../assets/img/skill-teamWork.png";
 import skill_React from "../assets/img/skill-React.png";
+import skill_GO from "../assets/img/skill-GO.png";
+import skill_GIN from "../assets/img/skill-GIN.png";
 
 export const Skills = () => {
   const responsive = {
@@ -43,23 +45,45 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={skill_GIT} alt="Image" />
+                  <img src={skill_GIT} 
+                  alt="Image" 
+                  className="carousel-image"/>
                   <h5> GIT </h5>
                 </div>
                 <div className="item">
-                  <img src={skill_JS} alt="Image" />
-                  <h5> JavaScript</h5>
-                </div>
-                <div className="item">
-                  <img src={skill_htmlcss} alt="Image" />
+                  <img src={skill_htmlcss} 
+                  alt="Image" 
+                  className="carousel-image"/>
                   <h5> HTML & CSS </h5>
                 </div>
                 <div className="item">
-                  <img src={skill_React} alt="Image" />
+                  <img src={skill_GO} 
+                  alt="Image"
+                  className="carousel-image" />
+                  <h5> GO Language</h5>
+                </div>
+                <div className="item">
+                  <img src={skill_GIN} 
+                  alt="Image"
+                  className="carousel-image" />
+                  <h5> GIN Gonic</h5>
+                </div>
+                <div className="item">
+                  <img src={skill_JS} 
+                  alt="Image" 
+                  className="carousel-image"/>
+                  <h5> JavaScript</h5>
+                </div>
+                <div className="item">
+                  <img src={skill_React} 
+                  alt="Image" 
+                  className="carousel-image"/>
                   <h5> ReactJs</h5>
                 </div>
                 <div className="item">
-                  <img src={skill_teamWork} alt="Image" />
+                  <img src={skill_teamWork} 
+                  alt="Image"
+                  className="carousel-image" />
                   <h5> Team Work</h5>
                 </div>
               </Carousel>

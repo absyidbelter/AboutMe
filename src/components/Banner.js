@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Frontend Developer"];
+  const toRotate = ["Fullstack Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -68,7 +68,7 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Frontend Developer"]'
+                      data-rotate='[ "Fullstack Developer"]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
@@ -76,8 +76,7 @@ export const Banner = () => {
                   <p>
                     I am a graduate of Physics at Yogyakarta State University.
                     Lectures are equipped with an understanding of programming
-                    logic in computational physics. I am very interested in
-                    technology, especially frontend development
+                    logic in computational physics.
                   </p>
                 </div>
               )}

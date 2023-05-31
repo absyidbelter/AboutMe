@@ -8,13 +8,13 @@ export const Footer = () => {
         <Row className="d-flex justify-content-end">
           <Col xs={12} md={6} xl={2}>
             <p className="Footer-txt">
-              <p>Click me! to connect on Github, Explore more about me</p>
+              <p>Click ! to connect on Github, Explore more about me</p>
             </p>
           </Col>
           <Col xs={12} md={6} xl={1}>
             <p className="footer-icon">
               <a
-                href="https://github.com/absyid"
+                href="https://github.com/absyidbelter"
                 target="_blank"
                 rel="noopener noreferrer"
               >

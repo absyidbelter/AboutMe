@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-misterAladin.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
+import BAF_Logo from "../assets/img/BAF-Logo.png";
 
 export const Projects = () => {
   const projectsFirst = [{ title: "Titip Aja Project", imgUrl: projImg2 }];
@@ -38,7 +39,16 @@ export const Projects = () => {
                 >
                   <h2>Experience</h2>
                   <h3 className="project-desc">
-                    As IP Frontend Engineer at PT.BixBox Teknologi Perkasa
+                    As Backend Developer at PT.Bussan Auto Finance (2023 - now)
+                    <h3>
+                    <div class="image-container">
+                      <img src={BAF_Logo} alt="Image" class="centered-image" />
+                    </div>
+                  </h3>
+                  </h3>
+                  <h3 className="project-desc">
+                    As IP Frontend Engineer at PT.BixBox Teknologi Perkasa 
+                    (2022)
                   </h3>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
