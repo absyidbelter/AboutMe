@@ -15,6 +15,7 @@ Berikut adalah langkah-langkah untuk memulai dengan Tentang Saya Pages:
 npm start
 
 ```
-yang berjalan di 
+yang nantinya runing di 
 [http://localhost:3000](http://localhost:3000)
 
+### Enjoy !
