@@ -10,7 +10,7 @@ Berikut adalah langkah-langkah untuk memulai dengan Tentang Saya Pages:
 
 1. Clone repositori.
 
-```json
+```sheel
 https://github.com/absyidbelter/TentangSaya.git
 
 ```
@@ -18,7 +18,7 @@ https://github.com/absyidbelter/TentangSaya.git
 
 2. mulai dengan 
 
-```json
+```sheel
 npm start
 
 ```
