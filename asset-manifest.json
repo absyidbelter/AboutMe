@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/AboutMe/static/css/main.abbe80b4.css",
+    "main.js": "/AboutMe/static/js/main.a749bfb1.js",
+    "static/js/787.fb771931.chunk.js": "/AboutMe/static/js/787.fb771931.chunk.js",
+    "static/media/Moon.png": "/AboutMe/static/media/Moon.1bbe292569f0960bacc1.png",
+    "static/media/color-sharp2.png": "/AboutMe/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/project-biofarma.png": "/AboutMe/static/media/project-biofarma.5acac0b47284b29b00b5.png",
+    "static/media/Rosyid.png": "/AboutMe/static/media/Rosyid.4dddd188853d8593220e.png",
+    "static/media/nav-icon2.png": "/AboutMe/static/media/nav-icon2.3c0112085ad9032176d9.png",
+    "static/media/project-misterAladin.png": "/AboutMe/static/media/project-misterAladin.fab4fc677c998fefddf4.png",
+    "static/media/CentraNo2-Bold.ttf": "/AboutMe/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/AboutMe/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/AboutMe/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/skill-html&css.png": "/AboutMe/static/media/skill-html&css.b253e33af8cca99ab46a.png",
+    "static/media/skill-GIN.png": "/AboutMe/static/media/skill-GIN.454bc943c49a9e1bb29a.png",
+    "static/media/skill-GO.png": "/AboutMe/static/media/skill-GO.78fccf10056484596f5c.png",
+    "static/media/nav-icon3.png": "/AboutMe/static/media/nav-icon3.459d14acdbfb7db227e0.png",
+    "static/media/skill-teamWork.png": "/AboutMe/static/media/skill-teamWork.9469ab6cc4b6078dfa42.png",
+    "static/media/skill-GIT.png": "/AboutMe/static/media/skill-GIT.dfdd0989ffe0184bdd68.png",
+    "static/media/github_icon.png": "/AboutMe/static/media/github_icon.987334e9f782cc505f25.png",
+    "static/media/revicons.eot": "/AboutMe/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/AboutMe/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/skill-JS.png": "/AboutMe/static/media/skill-JS.dafbcd7fb56fcfce553c.png",
+    "static/media/revicons.woff": "/AboutMe/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon1.svg": "/AboutMe/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "index.html": "/AboutMe/index.html",
+    "main.abbe80b4.css.map": "/AboutMe/static/css/main.abbe80b4.css.map",
+    "main.a749bfb1.js.map": "/AboutMe/static/js/main.a749bfb1.js.map",
+    "787.fb771931.chunk.js.map": "/AboutMe/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abbe80b4.css",
+    "static/js/main.a749bfb1.js"
+  ]
+}
