@@ -376,9 +376,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .centered-image {
-  margin-top: -20px;
+  margin-top: -70px;
   margin-bottom: auto;
-  max-width: 80%;
+  max-width: 50%;
   max-height: 50%;
 }
 
