@@ -7,6 +7,7 @@ import skill_teamWork from "../assets/img/skill-teamWork.png";
 import skill_React from "../assets/img/skill-React.png";
 import skill_GO from "../assets/img/skill-GO.png";
 import skill_GIN from "../assets/img/skill-GIN.png";
+import postgre_SQL from "../assets/img/postgresql.png";
 
 export const Skills = () => {
   const responsive = {
@@ -68,6 +69,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={skill_React} alt="ReactJs" className="carousel-image" />
                   <h5> ReactJs</h5>
+                </div>
+                <div className="item">
+                  <img src={postgre_SQL} alt="ReactJs" className="carousel-image" />
+                  <h5> postgreSQL</h5>
                 </div>
                 <div className="item">
                   <img
