@@ -40,14 +40,18 @@ export const Projects = () => {
                   <h2>Experience</h2>
                   <h3 className="project-desc">
                     As Backend Developer at PT.Bussan Auto Finance (2023 - now)
-                    <h3>
-                    <div class="image-container">
-                      <img src={BAF_Logo} alt="Image" class="centered-image" />
+                  </h3>
+                  <h3>
+                    <div className="image-container">
+                      <img
+                        src={BAF_Logo}
+                        alt="BAF Logo"
+                        className="centered-image"
+                      />
                     </div>
                   </h3>
-                  </h3>
                   <h3 className="project-desc">
-                    As IP Frontend Engineer at PT.BixBox Teknologi Perkasa 
+                    As IP Frontend Engineer at PT.BixBox Teknologi Perkasa
                     (2022)
                   </h3>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -100,7 +104,7 @@ export const Projects = () => {
                             integrated order fulfillment solutions and services,
                             supported by a number of systems, various strategic
                             warehouse locations, and sustainable processes in
-                            Indonesia
+                            Indonesia.
                           </p>
                         </Row>
                       </Tab.Pane>
@@ -111,7 +115,7 @@ export const Projects = () => {
                           })}
                           <p className="project-third-txt">
                             Developing a Content Management System using Vue for
-                            online shope malls, namely Aladin Mall MNC as a
+                            online shop malls, namely Aladin Mall MNC, as a
                             provider of various integrated digital needs in
                             Indonesia.
                           </p>
@@ -125,7 +129,11 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img
+        className="background-image-right"
+        src={colorSharp2}
+        alt="Background"
+      />
     </section>
   );
 };

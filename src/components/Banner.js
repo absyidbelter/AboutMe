@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "animate.css";
 import Rosyid from "../assets/img/Rosyid.png";
@@ -9,21 +9,11 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
-  const toRotate = ["Fullstack Developer"];
-  const period = 2000;
+  const [, setIndex] = useState(1); // Ignore the unused variable warning
 
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
+  const tick = useCallback(() => {
+    const toRotate = ["Fullstack Developer"];
 
-    return () => {
-      clearInterval(ticker);
-    };
-  }, [text]);
-
-  const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
     let updatedText = isDeleting
@@ -39,7 +29,7 @@ export const Banner = () => {
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
       setIndex((prevIndex) => prevIndex - 1);
-      setDelta(period);
+      setDelta(2000);
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
@@ -48,7 +38,15 @@ export const Banner = () => {
     } else {
       setIndex((prevIndex) => prevIndex + 1);
     }
-  };
+  }, [isDeleting, loopNum, text]);
+
+  useEffect(() => {
+    let ticker = setInterval(tick, delta);
+
+    return () => {
+      clearInterval(ticker);
+    };
+  }, [tick, delta]);
 
   return (
     <section className="banner" id="home">
@@ -62,7 +60,7 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Introducton</span>
+                  <span className="tagline">Introduction</span>
                   <h1>
                     {`Hi! I'm Abdul Rosyid`}{" "}
                     <span
