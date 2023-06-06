@@ -4,6 +4,8 @@
 
 Teknologi yang digunakan dalam proyek ini adalah React dan Bootstrap.
 
+## Visit : https://absyidbelter.github.io/AboutMe/
+
 ## Getting Started
 
 Berikut adalah langkah-langkah untuk memulai dengan Tentang Saya Pages:
