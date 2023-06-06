@@ -72,7 +72,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={postgre_SQL} alt="ReactJs" className="carousel-image" />
-                  <h5> postgreSQL</h5>
+                  <h5> PostgreSQL</h5>
                 </div>
                 <div className="item">
                   <img

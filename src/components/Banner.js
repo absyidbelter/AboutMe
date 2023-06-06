@@ -72,9 +72,8 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I am a graduate of Physics at Yogyakarta State University.
-                    Lectures are equipped with an understanding of programming
-                    logic in computational physics.
+                  I am a graduate of Physics, Yogyakarta State University. 
+                  I am part of the IT Talent from EnigmaCamp and Fullstack developer
                   </p>
                 </div>
               )}
